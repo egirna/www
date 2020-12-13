@@ -89,29 +89,32 @@ body.egirna-theme {
       @extend .heading2;
       font-size: 24px;
     }
-    a.btn-cta{
-      background: $bgBtn;
-      color: $white;
-      font-size: $fontSizeBtn;
-      padding: $paddingbtn;
-      font-weight: bold;
-      &:hover{
-        background: $hoverBtn;
-        text-decoration: none;
-      }
+  }
+  a.btn-cta{
+    background: $bgBtn;
+    color: $white;
+    font-size: $fontSizeBtn;
+    padding: $paddingbtn;
+    font-weight: bold;
+    &:hover{
+      background: $hoverBtn;
+      text-decoration: none;
     }
   }
   p{font-size: $fontSizeP;}
   .fa{
     font-family:"Font Awesome 5 Free";
   }
-  .fa-signal-alt-3:before{content: "\f693";font-family:"Font Awesome 5 Free";
+  .fa-signal-alt-3:before{
+    content: "\f693";
+    font-family:"Font Awesome 5 Free";
   }
-  #services{
+  #services, #need-to-talk{
     background: $gray-400;
     margin: 0;
     .row{padding: 95px 0}
   }
+
   h2{
     font-size: $fontSizeH2;
     color: $teal;
@@ -121,6 +124,30 @@ body.egirna-theme {
     font-size: $fontSizeH3;
     color: $teal;
     font-family: "Roboto Condensed";
+  }
+  #need-to-talk .row{
+    padding: 42px 0 !important;
+  }
+  #need-to-talk h2{
+    @extend  h2;
+    font-weight: 400;
+  }
+  footer{
+    background: #0b3655;
+    padding: $paddingFooter;
+    .list-inline-item{
+      font-size: $fontSizeP;
+      padding: 0 10px;
+
+      a{
+        color: $white;
+        &:hover{
+          color:$orange2;
+          text-decoration: none;
+        }
+      }
+    }
+    .logo-footer{max-width: 80%}
   }
 }
 
