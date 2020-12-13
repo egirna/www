@@ -22,22 +22,16 @@ body.egirna-theme {
       color: $blue;
       font: bold 20px / 24px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
       text-transform: none;
+      position: relative;
+
       &:hover, &.active {
       color: $orange2;
         visibility: visible;
         transform: scaleX(1);
+        border-bottom: $orange2 solid 2px;
       }
-        position: relative;
-        &:before{
-          bottom: -12px;
-          height: 2px;
-          background-color: $orange2;
-          background: $orange2;
-          position: absolute;
-          content:"";
-          width: 55%;
-        }
-    }
+
+
     }
     .navbar-brand{
       padding: 0;
@@ -198,7 +192,7 @@ body.underconstruction{
   .banner-home{
     padding-top: 140px !important;
     padding-bottom: 140px !important;
-    background: #1a67a1 url(../images/main-banner.jpg) !important;
+    background: #1a67a1 url("../assets/images/main-banner.jpg") !important;
   }
 }
 
