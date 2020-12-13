@@ -11,9 +11,10 @@ body.egirna-theme {
   padding: 0;
   margin: 0;
   color: $gray-500;
+
   #mainNav{
     animation: slide-in-anim .52s ease 0s 1 normal both;
-    position: sticky;
+  //  position: sticky;
     background: $white;
     box-shadow: 0 0 15px 1px rgba(0,0,0,0.12);
 
@@ -148,6 +149,13 @@ body.egirna-theme {
       }
     }
     .logo-footer{max-width: 80%}
+  }
+  .fixed-header{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: red;
   }
 }
 
