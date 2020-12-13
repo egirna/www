@@ -22,8 +22,21 @@ body.egirna-theme {
       color: $blue;
       font: bold 20px / 24px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
       text-transform: none;
-      &:hover, &:active {
-      color: #ec7834;
+      &:hover, &.active {
+      color: $orange2;
+        visibility: visible;
+        transform: scaleX(1);
+      }
+        position: relative;
+        &:before{
+          bottom: -12px;
+          height: 2px;
+          background-color: $orange2;
+          background: $orange2;
+          position: absolute;
+          content:"";
+          width: 55%;
+        }
     }
     }
     .navbar-brand{
