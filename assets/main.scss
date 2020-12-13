@@ -3,15 +3,19 @@
 ---
 
 @import "../_sass/styles";
+@import "../assets/vendor/fontawesome-free/css/all.css";
 
 body.egirna-theme {
   font: $font;
   font-family: $fontFamily;
+  padding: 0;
+  margin: 0;
+  color: $gray-500;
   #mainNav{
     animation: slide-in-anim .52s ease 0s 1 normal both;
     position: sticky;
     background: $white;
-    box-shadow: 0 0 15px 1px #d8d8d8;
+    box-shadow: 0 0 15px 1px rgba(0,0,0,0.12);
 
     .navbar-nav>li.nav-item>a {
       color: $blue;
@@ -98,7 +102,26 @@ body.egirna-theme {
     }
   }
   p{font-size: $fontSizeP;}
-
+  .fa{
+    font-family:"Font Awesome 5 Free";
+  }
+  .fa-signal-alt-3:before{content: "\f693";font-family:"Font Awesome 5 Free";
+  }
+  #services{
+    background: $gray-400;
+    margin: 0;
+    .row{padding: 95px 0}
+  }
+  h2{
+    font-size: $fontSizeH2;
+    color: $teal;
+    font-family: "Roboto Condensed";
+  }
+  h3{
+    font-size: $fontSizeH3;
+    color: $teal;
+    font-family: "Roboto Condensed";
+  }
 }
 
 body.underconstruction{
