@@ -1,57 +1,16 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel='stylesheet' id='dt-web-fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto:400,600,700|Roboto+Condensed:400,600,700' type='text/css' media='all' />
-</head>
-<body>
+<!DOCTYPE html>
 
-<header class="header-bar">
-    <div class="branding">
-        <a class="" href="http://egirna.local/">
-            <img class="logo img-responsive" src="assets/images/logo-egirna.png"  alt="Egirna Technologies" />
-        </a>
-    </div>
-<ul id="primary-menu" class="main-nav" role="navigation">
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-45 current_page_item menu-item-1002 act first">
-        <a href="http://egirna.local/" data-level="1"><span class="menu-item-text">
-            <span class="menu-text">Home</span></span>
-        </a>
-    </li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-2167 act">
-        <a href="/#products" data-level="1">
-            <span class="menu-item-text"><span class="menu-text">Products</span></span>
-        </a>
-    </li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2171">
-        <a href="/services" data-level="1">
-            <span class="menu-item-text">
-                <span class="menu-text">Services</span></span>
-        </a>
-    </li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-2172 act">
-        <a href="/#about" data-level="1"><span class="menu-item-text">
-            <span class="menu-text">About</span></span>
-        </a>
-    </li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2056">
-        <a href="http://egirna.local/support/" data-level="1">
-            <span class="menu-item-text"><span class="menu-text">Support</span></span>
-        </a>
-    </li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2059">
-        <a href="http://egirna.local/contact/" data-level="1">
-            <span class="menu-item-text"><span class="menu-text">Contact</span></span>
-        </a></li>
-</ul>
-</header>
-<section>
-    {{ content }}
-</section>
-<footer>
-    &copy; to me
-</footer>
+<html>
+
+{% include head.html %}
+
+<body class="egirna-theme">
+
+{% include navbar.html %}
+
+{{ content }}
+
+
 </body>
+
 </html>

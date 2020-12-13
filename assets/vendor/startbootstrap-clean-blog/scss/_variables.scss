@@ -1,0 +1,45 @@
+// Variables
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #248dc1 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #ff6d2d !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #0081c3 !default;
+$cyan:    #17a2b8 !default;
+
+$primary:       $teal !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+$fontFamily:     "Roboto" !default;
+$font:           normal 16px / 29px !important;
+$paddingBetweenSection: 107px 0;
+$fontSizeP : 16px;
+$fontSizeBtn : 14px;
+$bgBtn: #0081c3;
+$hoverBtn: #008bd1;
+$paddingbtn: 11px 18px;
+

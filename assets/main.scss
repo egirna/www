@@ -1,0 +1,132 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "../_sass/styles";
+
+body.egirna-theme {
+  font: $font;
+  font-family: $fontFamily;
+  #mainNav{
+    animation: slide-in-anim .52s ease 0s 1 normal both;
+    position: sticky;
+    background: $white;
+
+    .navbar-nav>li.nav-item>a {
+      color: $blue;
+      font: bold 20px / 24px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+      text-transform: none;
+      &:hover, &:active {
+      color: #ec7834;
+    }
+    }
+    .navbar-brand{
+      padding: 0;
+    }
+  }
+  .banner-home {
+    position: relative;
+    background: url("images/main-banner.jpg") top center no-repeat;
+    background-size: cover;
+    min-height: 483px;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    font-family: $fontFamily;
+    flex-flow: column nowrap;
+
+    h1 {
+      font-size: 45px;
+      font-weight: bold;
+      font-family: 'Roboto Condensed', sans-serif;
+      position: relative;
+
+      &:after {
+        border-style: solid;
+        border-bottom-width: 2px;
+        border-color: #fff;
+        width: 80px;
+        margin: 0px auto;
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 46%;
+      }
+    }
+    .site-description{
+      margin-top: 18px;
+      position: relative;
+      max-width: 78%;
+      font-weight: 600;
+    }
+  }
+  .row{
+    padding: $paddingBetweenSection;
+  }
+  .info-box{
+    .fa-flag{
+      color: #ffffff;
+      width: 80px;
+      height: 80px;
+      background: $orange;
+      line-height: 80px;
+      font-size: 30px;
+    }
+    .heading-block{padding-left: 15px}
+    .heading2{
+      color:$teal;
+      font-size: 34px;
+      line-height: 38px;
+      font-weight: bold;
+      font-font: $fontFamily;
+    }
+    .heading3{
+      @extend .heading2;
+      font-size: 24px;
+    }
+    a.btn-cta{
+      background: $bgBtn;
+      color: $white;
+      font-size: $fontSizeBtn;
+      padding: $paddingbtn;
+      font-weight: bold;
+      &:hover{
+        background: $hoverBtn;
+        text-decoration: none;
+      }
+    }
+  }
+  p{font-size: $fontSizeP;}
+
+}
+
+body.underconstruction{
+  background: #394867 url("../assets/images/coming-soon.png") top 18rem center no-repeat;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: $fontFamily;
+  background-size: 100%;
+  .top-header{
+    background: #fff;
+    padding: 25px 0;
+  }
+  .m-auto{
+    display: table;
+    margin: auto;
+  }
+  .text-coming-soon{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    font-font: $fontFamily !important;
+    padding-top: 1.5rem;
+  }
+  p{font-font: $fontFamily !important;}
+  .banner-home{
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+    background: #1a67a1 url(../images/main-banner.jpg) !important;
+  }
+}
+
