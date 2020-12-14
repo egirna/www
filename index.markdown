@@ -2,21 +2,17 @@
 permalink: /
 layout: home
 ---
-
-
 <section class="main">
     <div class="container">
-        <div class="row" id="products">
+      <div class="row" id="products">
             <div class="col-md-6">
                 <div class="info-box">
                     <i class="far fa-flag rounded-circle text-center d-table-cell align-bottom"></i>
                     <div class="heading-block  d-table-cell align-middle">
                         <span class="heading2">SquidVA</span>
                         <span class="heading3 d-block">Squid based Virtual Appliance</span>
-                    </div>
-
+                   </div>
                     <p>A hassle free virtual appliance of Ubuntu with Squid Cache & ClamAV preinstalled for your convenience!</p>
-
                     <a class="btn-cta" href="https://www.proxyeg.com/squidva/" target="_blank">Discover more</a>
                 </div>
             </div>
@@ -24,7 +20,6 @@ layout: home
                 <img  class="img-fluid"  src="assets/images/proxyeg.png" alt="proxyeg" />
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-6 text-center">
                 <img class="img-fluid" src="assets/images/squidcp.png" alt="squidcp" />
@@ -37,11 +32,8 @@ layout: home
                         <span class="heading2">SquidCP</span>
                         <span class="heading3 d-block">Squid Configuration Manager</span>
                     </div>
-
                     <p>Manage your access control lists with an easy to use ACL Manager<br/><br/>
-
                         Configure your basics preferences using the configuration manager for network and cache paramete</p>
-
                     <a class="btn-cta" href="https://www.proxyeg.com/squidcp/" target="_blank">Discover more</a>
                 </div>
             </div>
@@ -64,7 +56,6 @@ layout: home
             </div>
          </div>
     </div>
-
     <div  id="about">
         <div class="container">
             <div class="row">
@@ -89,5 +80,3 @@ layout: home
         </div>
     </div>
 </section>
-
-
