@@ -78,14 +78,6 @@ body.egirna-theme {
     padding: $paddingBetweenSection;
   }
   .info-box{
-    .fa-flag{
-      color: #ffffff;
-      width: 80px;
-      height: 80px;
-      background: $orange;
-      line-height: 80px;
-      font-size: 30px;
-    }
     .heading-block{padding-left: 15px}
     .heading2{
       color:$teal;
@@ -164,6 +156,28 @@ body.egirna-theme {
     left: 0;
     width: 100%;
     background: red;
+  }
+  .banner-page{
+    background: #394867 url("../assets/images/main-banner-heading.jpg.png") top 18rem center no-repeat;
+  }
+  .fa-flag, .icon-box{
+    color: $white;
+    width: 80px;
+    height: 80px;
+    background: $orange;
+    line-height: 80px;
+    font-size: 30px;
+    & svg{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .info-box2{
+    .icon-box{
+      color: $orange;
+      background: $transparent;
+      line-height: 0;
+    }
   }
 }
 

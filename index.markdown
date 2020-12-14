@@ -26,8 +26,9 @@ layout: home
             </div>
             <div class="col-md-6">
                 <div class="info-box">
-                    <i class="far fa-signal"></i>
-                    <i class="fal fa-signal-alt-3 rounded-circle text-center d-table-cell align-bottom"></i>
+                    <div class="icon-box rounded-circle text-center d-table-cell align-middle">
+                       <i data-feather="bar-chart"></i>
+                    </div>
                     <div class="heading-block  d-table-cell align-middle">
                         <span class="heading2">SquidCP</span>
                         <span class="heading3 d-block">Squid Configuration Manager</span>
@@ -45,12 +46,26 @@ layout: home
                 <h2 class="text-center col-md-12 p-0">Services We Provide</h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <h3>Professional Services</h3>
-                        <p>We will help you plan, design, implement, operate, and manage your network protection solutions</p>
-                    </div>
+                        <div class="info-box2">
+                            <div class="icon-box  text-center d-table-cell align-top">
+                                <i data-feather="briefcase"></i>
+                            </div>
+                            <div class="heading-block  d-table-cell align-top">
+                                <h3>Professional Services</h3>
+                                <p>We will help you plan, design, implement, operate, and manage your network protection solutions</p>
+                            </div>
+                        </div>
+                        </div>
                     <div class="col-md-6">
-                        <h3>Outsourcing</h3>
-                        <p> Maintain the operational aspects of your network protection solutions by utilizing the services of our onsite or remote engineers</p>
+                        <div class="info-box2">
+                            <div class="icon-box  text-center d-table-cell align-top">
+                                <i data-feather="unlock"></i>
+                            </div>
+                            <div class="heading-block  d-table-cell align-middle">
+                                <h3>Outsourcing</h3>
+                                <p> Maintain the operational aspects of your network protection solutions by utilizing the services of our onsite or remote engineers</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
