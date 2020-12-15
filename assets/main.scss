@@ -113,14 +113,29 @@ body.egirna-theme {
   #services, #need-to-talk{
     background: $gray-400;
     margin: 0;
-    .row{padding: 95px 0}
+    .row{padding: 81px 0}
   }
-
+  #services h2{padding-top: 111px;}
+  #about h2{padding-top: 120px;}
   h2{
     font-size: $fontSizeH2;
     color: $teal;
     font-family: "Roboto Condensed";
   }
+  .banner-page-interne{
+    padding: $paddingBanner;
+    background: url("../assets/images/main-banner.jpg") bottom 44% center no-repeat;
+    h2{
+      color: $white;
+      margin-bottom: 0;
+    }
+    .subtitle-banner{
+      font-size: 17px;
+      @extend h2;
+      font-weight: normal;
+    }
+  }
+
   h3{
     font-size: $fontSizeH3;
     color: $teal;
@@ -158,7 +173,7 @@ body.egirna-theme {
     background: red;
   }
   .banner-page{
-    background: #394867 url("../assets/images/main-banner-heading.jpg.png") top 18rem center no-repeat;
+    background: #394867 url("../assets/images/main-banner-heading.jpg") top 18rem center no-repeat;
   }
   .fa-flag, .icon-box{
     color: $white;
@@ -177,6 +192,20 @@ body.egirna-theme {
       color: $orange;
       background: $transparent;
       line-height: 0;
+    }
+  }
+  .section-tech{
+    background: $gray-400;
+    .subtitle-tech{
+      color: $orange;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .row{padding:$paddingBanner;}
+  }
+  .logos-tech{
+    .row{
+      padding: 87px 0;
     }
   }
 }
