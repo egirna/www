@@ -25,7 +25,7 @@ body.egirna-theme {
       text-transform: none;
       position: relative;
 
-      &:hover, &.active {
+      &:hover {
       color: $orange2;
         visibility: visible;
         transform: scaleX(1);
@@ -37,6 +37,12 @@ body.egirna-theme {
     .navbar-brand{
       padding: 0;
     }
+  }
+  .active {
+    color: $orange2 !important;
+    visibility: visible;
+    transform: scaleX(1);
+    border-bottom: $orange2 solid 2px;
   }
   .banner-home {
     position: relative;
@@ -249,5 +255,6 @@ body.underconstruction{
     padding-bottom: 140px !important;
     background: #1a67a1 url("../assets/images/main-banner.jpg") !important;
   }
+
 }
 

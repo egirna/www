@@ -10,17 +10,17 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{"/" }}">Home</a>
+                    <a class="nav-link active" href="{{"/" | relative_url  }}">Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#products">Products</a>
+                    <a class="nav-link" href="{{"/#products" | relative_url  }}">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ "/services" | relative_url }}">Services</a>
+                    <a class="nav-link" href="{{"/services" | relative_url }}">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="{{ "/#about" | relative_url }}">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ "/support" | relative_url }}">Support</a>

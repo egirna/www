@@ -26,20 +26,11 @@
 <script src="../assets/vendor/jquery/jquery.min.js"></script>
 <script src="../assets/js/feather.min.js"></script>
 <script>
-  feather.replace()
+  feather.replace();
 </script>
 
 
 <script>
-
-  $(document).ready(function() {
-    var url = window.location;
-    var element = $('.nav-link').filter(function() {
-      return this.href == url || url.href.indexOf(this.href) == 0; }).addClass('active');
-    if (element.is('li')) {
-      element.addClass('active').parent().parent('li').addClass('active')
-    }
-
     $(window).scroll(function(){
       if ($(window).scrollTop() >= 300) {
         $('nav').addClass('fixed-header');
@@ -49,7 +40,15 @@
 
       }
     });
-  });
+    $(function() {
+     /* $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');*/
 
+
+      if ( window.location.pathname != '/' ){
+        $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+        $('li:first-child a').removeClass('active');
+
+      }
+    });
 </script>
 
