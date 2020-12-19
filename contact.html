@@ -1,0 +1,102 @@
+---
+permalink: /contact
+layout: default
+---
+
+<div class="main contact">
+    <div class="banner-page-int-supp text-center">
+        <h2>Contact</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 box-contact text-center">
+                <div class="icon-contact d-block m-3">
+                    <i data-feather="map-pin"></i>
+                </div>
+               <span class="d-block title-contact">OUR LOCATION</span>
+                <p class="d-block m-2">Building No. 17G, Compound la city, Central Spine Road, 6 October, Giza, Egypt</p>
+            </div>
+            <div class="col-md-4 box-contact text-center">
+                <div class="icon-contact d-block m-3">
+                    <i data-feather="phone"></i>
+                </div>
+                <span class="d-block title-contact">Call us</span>
+                <p class="d-block m-2">+201101200404</p>
+            </div>
+            <div class="col-md-4 box-contact text-center">
+                <div class="icon-contact d-block m-3">
+                    <i data-feather="mail"></i>
+                </div>
+                <span class="d-block title-contact">DROP US A LINE</span>
+                <p class="d-block m-2"><a href="mailto:support@egirna.com"></a>support@egirna.com </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Have any questions or propositions? Get in touch!</h2>
+            </div>
+            <div class="col-md-12">
+                <form action="ma" method="post" class="m-auto">
+
+                    <input type='hidden' name='redirect_to' value='' />
+
+                    <input class="form-control mb-2" type='text' name='name' placeholder="Name *" required/>
+                    <span id="name"></span>
+                    <input class="form-control mb-2"  type='email' name='email' placeholder="E-mail *" required/>
+                    <span id="email"></span>
+                    <input class="form-control mb-2"  type='text' name='telephone' placeholder="Télephone" />
+                    <textarea class="form-control mb-2"  name="message" placeholder="Message" rows="4"></textarea>
+
+                    <input class="btn-cta m-auto" type='submit' value='Send message' />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="info-box m-auto d-table">
+                            <a href="https://www.linkedin.com/company/egirna" target="_blank" class="icon-box m-4 rounded-circle text-center  d-table align-middle">
+                                <i data-feather="linkedin"></i>
+                            </a>
+                            <div class="heading-block  d-table align-middle">
+                                <span class="heading2-cnt">LinkedIn</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="info-box m-auto d-table">
+                            <a href="https://twitter.com/egirna" target="_blank" class="icon-box m-4 rounded-circle  text-center d-table align-middle">
+                                <i data-feather="twitter"></i>
+                            </a>
+                            <div class="heading-block  d-table align-middle">
+                                <span class="heading2-cnt">Twitter</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="info-box m-auto d-table">
+                            <a href="https://www.facebook.com/egirna" target="_blank"  class="icon-box m-4  rounded-circle text-center d-table align-middle">
+                                <i data-feather="facebook"></i>
+                            </a>
+                            <div class="heading-block  d-table align-middle">
+                                <span class="heading2-cnt">Facebook</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    pseudoElt.addEventListener("focus", function () {
+        document.getElementById("name").textContent = "Enter your name";
+    });
+    pseudoElt.addEventListener("blur", function (e) {
+        document.getElementById("email").textContent = "";
+    });
+
+</script>
