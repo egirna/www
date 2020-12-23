@@ -304,3 +304,29 @@ body.underconstruction{
 
 }
 
+@media (max-width: 414px) {
+  body.egirna-theme {
+    #mainNav .navbar-brand {
+      width: 70%;
+    }
+    .banner-home h1 {
+      font-size: 30px;
+    }
+    .row {
+      padding: 25px 0;
+    }
+    .info-box{margin-top: 25px}
+    .icon-box, .fa-flag{border-radius: 0 !important;}
+    .fa-flag{
+      line-height: 105px;
+    }
+    footer .list-inline-item {
+      padding: 0 7px;
+      margin-top: 25px;
+    }
+    .logos-tech .row {
+      padding: 27px 0;
+    }
+    .block-img{margin-bottom: 35px;}
+  }
+}
