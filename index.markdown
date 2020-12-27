@@ -87,7 +87,7 @@ layout: home
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h2 class="col-md-12">Need to talk ?</h2>
-                    <a class="btn-cta" href="#">Contact Us</a>
+                    <a class="btn-cta" href="/contact">Contact Us</a>
                 </div>
             </div>
         </div>
