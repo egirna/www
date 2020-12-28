@@ -97,6 +97,7 @@ body.egirna-theme {
       font-size: 24px;
     }
   }
+  .imgCenter{align-items: center}
   .btn-cta{
     background: $bgBtn;
     color: $white;
@@ -302,6 +303,11 @@ body.underconstruction{
     background: #1a67a1 url("../assets/images/main-banner.jpg") !important;
   }
 
+}
+@media only screen and (min-width: 992px){
+  .egirna-theme #mainNav .navbar-nav>li.nav-item>a {
+    padding: 10px 15px;
+  }
 }
 
 @media (max-width: 414px) {
