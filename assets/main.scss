@@ -44,6 +44,10 @@ body.egirna-theme {
     transform: scaleX(1);
     border-bottom: $orange2 solid 2px;
   }
+  .active2{
+    @extend .active;
+    border: none;
+  }
   .banner-home {
     position: relative;
     background: url("images/main-banner.jpg") top center no-repeat;
