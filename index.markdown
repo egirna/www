@@ -13,7 +13,7 @@ layout: home
                         <span class="heading3 d-block">Squid based Virtual Appliance</span>
                    </div>
                     <p>A hassle free virtual appliance of Ubuntu with Squid Cache & ClamAV preinstalled for your convenience!</p>
-                    <a class="btn-cta" href="https://www.proxyeg.com/squidva/" target="_blank">Discover more</a>
+                    <!--<a class="btn-cta" href="https://www.proxyeg.com/squidva/" target="_blank">Discover more</a>-->
                 </div>
             </div>
             <div class="col-md-6 text-center">
@@ -35,7 +35,7 @@ layout: home
                     </div>
                     <p>Manage your access control lists with an easy to use ACL Manager<br/><br/>
                         Configure your basics preferences using the configuration manager for network and cache paramete</p>
-                    <a class="btn-cta" href="https://www.proxyeg.com/squidcp/" target="_blank">Discover more</a>
+                  <!--  <a class="btn-cta" href="https://www.proxyeg.com/squidcp/" target="_blank">Discover more</a>-->
                 </div>
             </div>
         </div>
